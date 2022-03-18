@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "dependencies": {
+    "turbo": "^1.1.6"
+  },
+  "packageManager": "yarn@1.22.17",
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo build root",
+    "test": "turbo run test",
+    "test:a": "yarn turbo run test --scope=a --include-dependencies --force"
+  }
+}

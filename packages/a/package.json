@@ -1,0 +1,13 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo building a",
+    "test": "echo testing a"
+  },
+  "dependencies": {
+    "b": "1.0.0"
+  }
+}
